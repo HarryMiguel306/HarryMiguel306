@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(199714008_l_normal_none.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    
+}
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.principale{
+    background-color: transparent ;
+    height: 60px;
+    margin: 10px;
+    text-align: end;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff ;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: -5px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.Presentation{
+    margin: 10px;
+    text-align: center;
+}
+.titre{
+    position: relative;
+    margin-top: 60px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titre h1{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+.titre p{
+    color: #fff;
+    font-size: 20px;
+}
+.mdj h1{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.mdj p{
+    color: #fff;
+    font-size: 20px;
+}
+ol li{
+    text-align: start;
+    margin-top: 40px;
+}
+.m1{
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px;
+}
+.m1 h3{
+    color: #fff;
+    font-size: 20px;
+}
+.m1 span{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.m1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: -5px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.m1 a:hover{
+    background: #fff;
+    color: #000;
+}
+footer {  
+    background-color: navajowhite;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+footer h4{
+    color: #090909;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+footer h4 a{
+    color: #090909 ;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    margin: -5px;
+    font-weight: 500;
+    transition: 0.6s ease;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

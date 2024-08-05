@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+    list-style: none;
+}
+body {
+    background-color: #f7f6f6; 
+}
+.head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(199714008_l_normal_none.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+header nav {
+    margin-left: 300px;
+}
+header nav ul li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.active {
+    text-decoration: none;
+    font-size: 500;
+    color: red;
+    text-transform: uppercase;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 500;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    color: red;
+}
+.fa-bars {
+    display: none;
+    color: #fff;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: larger;
+}
+.fa-bars:hover {
+    color: red;
+    cursor: pointer;
+}
+.fa-house {
+    color: #fff;
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: larger;
+}
+.fa-house:hover {
+    color: red;
+    cursor: pointer;
+}
+.after {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+.after h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.after p {
+    font-weight: lighter;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: white;
+}
+.after a {
+    padding: 5px 50px 10px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    outline: none;
+    border : 0;
+    background-color: red;
+    font-size: medium;
+    color: #fff;
+    font-weight: bold;
+}
+.after a:hover {
+    background-color: white;
+    color: red;
+}
+.presentation {
+    text-align: center;
+    padding: 20px;
+    
+}
+.presentation h1 {
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: rgb(195, 73, 73);
+    letter-spacing: 3px;
+}
+.presentation p {
+    color: black;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.riz-pre, .farine-pre, .autre-pre, .ptitdej {
+    margin: 50px 10px 50px 10px;
+    position: relative;
+}
+.riz-pre img, .farine-pre img, .autre-pre img, .ptitdej img {
+    height: 500px;
+    width: 100%;
+    opacity: 0.7;
+}
+.riz-pre .text, .farine-pre .text, .autre-pre .text, .ptitdej .text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    
+}
+.riz-pre .text h3, .farine-pre .text h3, .autre-pre .text h3, .ptitdej .text h3{
+    color: rgb(195, 73, 73);
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: 'Calibri';
+}
+.riz-pre .text p, .farine-pre .text p, .autre-pre .text p, .ptitdej .text p {
+    padding: 0 10px 10px 10px;
+    text-align: justify;
+}
+.riz-suite, .farine-suite {
+    display: flex;
+    border: 5px solid rgb(195, 73, 73);
+    margin: 15px;
+    padding-top: 10px;
+}
+.riz-suite img, .farine-suite img {
+    margin: 10px 10px 50px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.riz-suite h3, .farine-suite h3 {
+    padding: 10px;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.riz-suite .photos ul li, .farine-suite .photos ul li {
+    display: flex;
+}
+.inf {
+    margin-top: 40px;
+}
+
+.inf h4 {
+    font-size: larger;
+    padding: 5px;
+    color: rgb(195, 73, 73);
+    text-decoration: underline;
+}
+.inf p {
+    padding: 0 10px 5px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.inf span {
+    color: rgb(195, 73, 73);
+    font-weight: bolder;
+    padding: 0 5px 10px 5px;
+}
+.inf a {
+    text-decoration: none;
+    color: rgb(195, 73, 73);
+    text-transform: capitalize;
+    padding: 0 5px 10px 5px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.inf a:hover {
+    text-decoration: underline;
+}
+.autre-suite {
+    position: relative;
+}
+.autre-suite h3{
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.autre-suite a {
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.autre-suite a:hover {
+    color: black;
+
+}
+.photo1 ul {
+    display: flex;
+    margin-left: 50px;
+    padding: 20px;
+}
+.photo1 ul li {
+    background-color: rgb(195, 73, 73);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.img {
+    display: flex;
+}
+.infor {
+    padding: 10px 35px 10px 35px;
+}
+.infor img {
+    border-radius: 10px;
+    border: 3px solid rgb(195, 73, 73);
+}
+.infor p {
+    font-weight: bold;
+    text-align: justify;
+}
+.nouvelle {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgb(195, 73, 73);
+    color: aliceblue;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+.nouvelle img {
+    margin: 10px 10px 50px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nouv {
+    margin-top: 20px;
+}
+.nouv h3 {
+    padding: 0  20px 20px 20px;
+    font-size: 400;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nouv p {
+    padding: 0 20px 20px 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e4e3e3;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.form label, .form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form select, .form textarea, .form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+}
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.form input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(195, 73, 73);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.form input[type="button"]:hover {
+    background-color: rgb(125, 44, 44);
+}
+footer {
+    margin-top: 30px;
+}
+.pre {
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    padding: 20px;
+}
+.icone {
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+.icone i {
+    margin: 0 10px 0 10px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-google, .fa-youtube {
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+    padding: 8px;
+    border-radius: 50%;
+}
+.lien nav ul li{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+.lien nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.lien nav ul li a:hover {
+    color: red;
+}
+.copyright {
+    display: flex;
+    background-color: black;
+    padding-left: 39%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f2f2f2;
+}
+.copyright i {
+    margin-right: 5px;
+    margin-top: 5px;
+}

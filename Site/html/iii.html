@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapse Example</title>
+<style>
+  .container {
+    display: flex;
+    gap: 10px;
+  }
+  .collapse-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .collapse-btn {
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .collapse-btn:focus {
+    outline: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <button class="collapse-btn" onclick="toggleCollapse('collapseContent1')">Toggle Collapse 1</button>
+  <button class="collapse-btn" onclick="toggleCollapse('collapseContent2')">Toggle Collapse 2</button>
+</div>
+
+<div class="collapse-content" id="collapseContent1">
+  <p>This is the collapsible content 1. You can add whatever you want here.</p>
+</div>
+
+<div class="collapse-content" id="collapseContent2">
+  <p>This is the collapsible content 2. You can add whatever you want here.</p>
+</div>
+
+<script>
+  function toggleCollapse(id) {
+    var content1 = document.getElementById('collapseContent1');
+    var content2 = document.getElementById('collapseContent2');
+    var content = document.getElementById(id);
+
+    if (id === 'collapseContent1') {
+      if (content1.style.display === "none" || content1.style.display === "") {
+        content1.style.display = "block";
+        content2.style.display = "none";
+      } else {
+        content1.style.display = "none";
+      }
+    } else {
+      if (content2.style.display === "none" || content2.style.display === "") {
+        content2.style.display = "block";
+        content1.style.display = "none";
+      } else {
+        content2.style.display = "none";
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
+
+            <div class="container">
+        <div class="contact-box">
+            <div class="left">
+                <img src="gateaux-mous-planche-decouper-bois-couper-oranges-feuilles-biscuits-table-sombre_140725-86377.jpg" alt="img1">
+            </div>
+            <div class="right">
+                <h3>Login</h3>
+                <p></p>
+                <form>
+                    <input type="text" class="input1" placeholder="Username">
+                    <input type="password" class="input2" placeholder="Password">
+                    <button>Sign in</button>
+                </form>
+                <div class="terms"> 
+                    Haven't account ? Click <a href="register.html">here</a><br>
+                    Go to the <a href="accueil1.html">Homepage</a>
+                </div>
+            </div>
+        </div>
+    </div>

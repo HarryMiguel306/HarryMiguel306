@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+    list-style: none;
+}
+body {
+    background-color: #f7f6f6; 
+    position: relative;
+}
+.head {
+    background-color: rgb(195, 73, 73);
+    height: 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+.fa-house, .fa-egg, .fa-bowl-food, .fa-mug-hot, .fa-wine-bottle, .fa-utensils{
+    font-size: 25px;
+    color: aliceblue;
+}
+.fa-house:hover, .fa-egg:hover , .fa-bowl-food:hover, .fa-mug-hot:hover, .fa-wine-bottle:hover, .fa-utensils:hover{
+    color: red;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-right: 10px;
+
+}
+.heade {
+    background-color: rgb(195, 73, 73);
+    height: 50px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    height: 95%;
+    max-height: 1000px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+
+}
+
+.pageBleu {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.Bleu {
+    width: 100%;
+    height: 100%;
+    background-image: url(gateaux-mous-planche-decouper-bois-couper-oranges-feuilles-biscuits-table-sombre_140725-86377.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pageBlanche {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+}
+
+.pageBlanche h1 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    color: rgb(195, 73, 73);
+}
+
+.pageBlanche p {
+    font-size: 0.8em;
+    color: rgb(28, 28, 28);
+    text-align: center;
+}
+
+.pageBlanche form {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+section#Connexion div.container div.pageBlanche form div.input-group {
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#Connexion div.container div.pageBlanche form div.input-group input {
+    width: 100%;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.1);
+    border: none;
+    padding: 10px;
+}
+
+.input-check {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-check label {
+    margin: 0px 5px;
+    color: black;
+    font-size: 0.9em;
+}
+
+.input-check a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: rgb(195, 73, 73);
+}
+
+.input-check a:hover {
+    text-decoration: underline;
+}
+
+section#Connexion div.container div.pageBlanche form div.input-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(195, 73, 73);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.reseau {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    color: rgb(39, 37, 37);
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.reseau i {
+    font-size: 0.8em;
+    margin: 0px 10px;
+}
+
+.inscrit {
+    margin: 20px 0px;
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.inscrit a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 5px;
+    color: rgb(195, 73, 73);
+}

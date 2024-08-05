@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(199714008_l_normal_none.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.principale{
+    background-color: transparent ;
+    height: 60px;
+    margin: 10px;
+    text-align: end;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff ;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: -5px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+ul li.active a {
+    background: #fff;
+    color: #000;
+}
+.Presentation1{
+    margin: 10px;
+    text-align: center;
+}
+.Presentation2{
+    margin: 10px;
+    text-align: center;
+}
+.Presentation3{
+    margin: 10px;
+    text-align: center;
+}
+.ds{
+    float: left;
+    margin-right: 30px;
+}
+.pth{
+    position: relative;
+    margin-top: 60px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pth h2{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+.pth p{
+    color: #fff;
+    font-size: 15px;
+}
+.debut h2{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: start;
+}
+.debut p{
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+}
+.debut h4{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: start;
+}
+.Imn{
+    text-align: start;
+}
+.Imn h2{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+}
+ol li{
+    text-align: start;
+    margin-top: 40px;
+}
+.m1{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px;
+}
+.m1 h3{
+    color: #fff;
+    font-size: 20px;
+}
+.m1 span{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.m1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: -5px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.m1 a:hover{
+    background: #fff;
+    color: #000;
+}
+.debut3 h4{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.debut3 p{
+    color: #fff;
+    font-size: 20px;
+}
+.propos{
+    padding: 10px;
+}
+.propos h2{
+    color: burlywood;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-decoration: solid underline;
+    text-align: start;
+}
+.propos p{
+    color: aliceblue;
+    margin-bottom: 15px;
+    text-align: start;
+}
+.recommandation p{
+    font-size: 19px ;
+    color: floralwhite;
+    margin-bottom: 1.2rem;
+    text-align: start;
+}
+.field{
+    width: 50%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus{
+    background-color: azure;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+.area{
+    min-height: 100px;
+}
+button{
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 10%;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button:hover{
+    background: #000
+}
+footer{
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: azure;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-decoration: underline;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.socials a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.terms{
+    margin-top: 0.2rem;
+    color: floralwhite;
+    margin-bottom: 20px;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: underline;
+}
+.recommandation textarea{
+    background-color: transparent;
+}

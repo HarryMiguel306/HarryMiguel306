@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(199714008_l_normal_none.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #0c0c0c;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    
+}
+h1{
+    font-size: 2rem ;
+    color: floralwhite;
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #ffff ;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background: transparent;
+    color: #fff ;
+    cursor: pointer;
+
+}
+button:hover{
+    background: rgba(17, 107, 143, 0.877);
+}
+input:focus{
+    border: 1px solid rgb(192, 192, 192) ;
+}
+.terms{
+    margin-top: 0.2rem;
+    color: floralwhite;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 1rem;
+}
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+.member{
+    font-size: 1rem;
+    margin-top: 1.4rem;
+    color: floralwhite;
+}
+.member a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}

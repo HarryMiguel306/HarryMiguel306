@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(199714008_l_normal_none.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    color: beige;
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="produit1.css">
+    <title>Nos Menues</title>
+</head>
+<body>
+    <script>
+        function valid() {
+            x = confirm("Etes vous sûr de commander ça ?");
+            if (x == true) {
+                document.write("Votre commande a été pris en charge");
+            }
+            else {
+                window.location.href = "produit1.html" ;
+            }
+        }
+        document.getElementById("prevButton").addEventListener("click", function () {
+            var list = document.getElementById("scrollableList");
+            list.scrollLeft -= 200; 
+        });
+        document.getElementById("nextButton").addEventListener("click", function () {
+            var list = document.getElementById("scrollableList");
+            list.scrollLeft += 200;
+        });
+    </script>
+    <div class="head">
+        <header>
+            <div class="logo">
+                <a href="#">Harry<span>Custo</span></a>
+            </div>
+            <nav class="ma">
+                <ul>
+                    <li><a href="accueil1.html">Accueil</a></li>
+                    <li><a href="Apropos.html">A propos</a></li>
+                    <li><a href="produit.html" class="active">Produits</a></li>
+                    <li><a href="panier.html">Panier</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars" onclick="anotherpage()"></i>
+            <i class="fa-solid fa-house"></i>
+        </header>
+        <div class="after">
+            <h1>Bienvenue <br>sur HarryCusto</h1>
+            <p>HarryCusto est l'un des sites les plus populaires qui vous propose <br> une expérience culinaire typiquement Béninois. <br> Rejoignez nous en appuyant sur le boutton ci-dessous, <br> pour nous suivre dans un monde culinaire Béninois.</p>
+            <a href="login.html" class="button">Rejoignez-nous</a>
+        </div>
+    </div>
+    <div class="presentation">
+        <h1>Découvrez nos menus!!</h1>
+        <p>N'oubliez pas. Nos mets sont uniquement béninois.
+        Faites votre commande sur HarryCusto, le meilleur site qui vous propose de meilleurs mets Béninois.
+        Nos principaux mets sont à base de riz, de farine, de pâte etc... Et bonne nouvelle vous avez la possibilité de commander un truc qui vous plaît et qui est absent dans notre menu principal.</p>
+    </div>
+    <div class="body">
+        <div class="riz">
+            <div class="riz-pre">
+                <img src="aliment-riz.webp" alt="img1">
+                <div class="text">
+                    <h3>Le riz <i class="fa-solid fa-bowl-rice"></i></h3>
+                    <p>Le riz occupe une place essentielle dans l’alimentation quotidienne des Béninois. Cultivé localement et importé, il est un élément clé de nombreux plats traditionnels. Que ce soit sous forme de riz blanc, de riz sauce, ou de riz au gras, il est apprécié pour sa polyvalence et sa capacité à rassembler les familles autour de la table. Le riz est bien plus qu’un simple aliment ; il est le témoin de la richesse culturelle et de la convivialité du Bénin.</p>
+                </div>
+            </div>
+            <div class="riz-suite">
+                <img src="riz.jpg" alt="img2">
+                <div class="az">
+                    <h3>Nos menus à base de riz !</h3>
+                    <div class="photos">
+                        <ul>
+                            <li>
+                                <img src="2.png" alt="img3">
+                                <div class="inf">
+                                    <h4>Atassi Custo</h4>
+                                    <p>Le mélange du riz et du haricot: le met le plus populaire au Bénin. Riz plus friture avec deux oeufs et du poisson.</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="jollof rice.jpg" alt="img4" width="210px"  height="210px">
+                                <div class="inf">
+                                    <h4>Riz au gras</h4>
+                                    <p>Le riz préparé à la base avec de la sauce tomate bien épicée accompagné de morceaux de viande et de petits trucs végétariens.</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="riz blanc au gras.jpg" alt="img5" width="210px" height="210px">
+                                <div class="inf">
+                                    <h4>Riz au gras blanc</h4>
+                                    <p>Riz blanc bien épicé avec à côté de la viande <br> et un peu de piment vert !</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="riz blanc.jpg" alt="img6" width="210px" height="210px">
+                                <div class="inf">
+                                    <h4>Riz blanc simple</h4>
+                                    <p>C'est un simple riz que vous pouvez commander <br> avec de la sauce ou de la friture.</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="farine">
+            <div class="farine-pre">
+                <img src="farines-alternatives-a-la-farine-de-ble-1580x770.jpg" alt="img2">
+                <div class="text">
+                    <h3>La farine <i class="fa-solid fa-wheat-awn-circle-exclamation"></i></h3>
+                    <p>La farine est un ingrédient essentiel dans de nombreuses cuisines à travers le monde. Que ce soit pour la pâtisserie, les pains, les pâtes ou les sauces, la farine joue un rôle clé. Elle est obtenue en broyant des céréales telles que le blé, le maïs, le manioc ou le mil. La farine est la base de nombreuses recettes, et sa texture et son type peuvent varier en fonction de l’utilisation souhaitée.</p>
+                </div>
+            </div>
+            <div class="farine-suite">
+                <img src="farine.jpg" alt="img7">
+                <div class="az">
+                    <h3>Nos menus à base de farine !</h3>
+                    <div class="photos">
+                        <ul>
+                            <li>
+                                <img src="3.png" alt="img8" width="210px" height="210px">
+                                <div class="inf">
+                                    <h4>Télibor plus friture et klin-klin</h4>
+                                    <p>Le met le plus délicieux avec de la viande ou du poisson. Commander avec de la sauce tomate si vous voulez !</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="6.jpg" alt="img9" width="210px"  height="210px">
+                                <div class="inf">
+                                    <h4>Amiwor plus piment et jus de tomate</h4>
+                                    <p>Votre pâte rouge bien épicée avec de la viande ou du poisson à côté.</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="4.png" alt="img10" width="210px" height="210px">
+                                <div class="inf">
+                                    <h4>Agoun plus sauce arachide</h4>
+                                    <p>On vous amène à Savalou. De la pâte d'igname plus de la sauce d'arachide !</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="kom.jpg" alt="img11" width="210px" height="210px">
+                                <div class="inf">
+                                    <h4>Kôm du Togo</h4>
+                                    <p>C'est un met togolais et béninois. Il est toujours <br> accompagné de ce que vous voyez sur l'image</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="autre">
+            <div class="autre-pre">
+                <img src="10-ustensiles-de-cuisine-indispensables-1180.jpg" alt="img12">
+                <div class="text">
+                    <h3>Autres mets du Bénin <i class="fa-solid fa-carrot"></i></h3>
+                    <p>La cuisine béninoise est un véritable trésor de saveurs et de traditions. Au-delà des plats classiques à base de riz ou de farine, elle offre une variété de mets délicieux qui méritent d’être explorés. Explorez ces délices culinaires béninois lors de votre prochaine visite ! Parmis ses mets, on peut citer les spagetti, akassa, èba...</p>
+                </div>
+            </div>
+                <div class="autre-suite">
+                    <h3>Quelques mets que HarryCusto vous propose.</h3>
+                    <div class="photo1" id="scrollableList">
+                        <ul>
+                            <li>
+                                <img src="téléchargement (5).jfif" alt="img13">
+                                <h4>Êba rouge</h4>
+                                <p>Pâte de gari plus piment <br> et aileron braise.</p>
+                                <span>3000FCFA</span><br><br>
+                                <a href="panier.html">Commander</a>
+                            </li>
+                            <li>
+                                <img src="1.png" alt="img14" width="225px" height="225px">
+                                <h4>Haricots</h4>
+                                <p>Haricot plus du gari ! <br> Commander du pain si vous <br> voulez.</p>
+                                <span>3000FCFA</span><br>
+                                <a href="panier.html">Commander</a>
+                            </li>
+                            <li>
+                                <img src="téléchargement (7).jfif" alt="img15" width="225px" height="225px">
+                                <h4>Âblo du Togo</h4>
+                                <p>Du ablo plus friture, poisson <br> et piment.</p>
+                                <span>3000FCFA</span><br><br>
+                                <a href="panier.html">Commander</a>
+                            </li>
+                        </ul>
+                        <div class="photo1">
+                            <ul>
+                                <li>
+                                    <img src="téléchargement (8).jfif" alt="img16" width="225px" height="225px">
+                                    <h4>Cous-Cous</h4>
+                                    <p>Du cous-cous avec saucisse, <br> et viande plus jus de tomate.</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                    </li>
+                                <li>
+                                    <img src="coq.jpg" alt="img16" width="225px" height="225px">
+                                    <h4>Coquillettes sautés</h4>
+                                    <p>Commandez du Coquillettes <br> sautés avec de l'oeuf</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </li>
+                                <li>
+                                    <img src="attie.jpg" alt="img17" width="225px" height="225px">
+                                    <h4>Attieke de la Côte d'Ivoire</h4>
+                                    <p>Du attieke complet, avec du <br> poisson ou de la viande!</p>
+                                    <span>3000FCFA</span><br>
+                                    <a href="panier.html">Commander</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="ac">
+            <div class="boissons">
+                <div class="presentation">
+                    <h1>Nos boissons <i class="fa-solid fa-wine-bottle"></i></h1>
+                    <p>Et ouais, sur HarryCusto on vous propose pas que de nourritures. Voici nos boissons !!</p>
+                </div>
+                <div class="img">
+                    <div class="infor">
+                        <img src="jus.jpg" alt="img18" width="225px" height="225px">
+                        <p>Du jus de fruit bio faites <br> par la maison.</p>
+                    </div>
+                    <div class="infor">
+                        <img src="Cock.jpg" alt="img19" width="225px" height="225px">
+                        <p>On propose des coktails Custo avec ou sans alcool.</p>
+                    </div>
+                    <div class="infor">
+                        <img src="vin.jpg" alt="img20" width="225px" height="225px">
+                        <p>Vous voulez du vin ? On en a en qualité.</p>
+                    </div>
+                    <div class="infor">
+                        <img src="champ.jpg" alt="img21" width="225px" height="225px">
+                        <p>Commandez du champagne de qualité aussi si vous voulez!</p>
+                    </div>
+                </div>
+                <div class="nouvelle">
+                    <img src="boisson-la-plus-sucree.jpeg" alt="img22" width="100px" height="100px">
+                    <div class="nouv">
+                        <h3>Bonne nouvelle <i class="fa-solid fa-gifts"></i></h3>
+                        <p>En achetant nos mets, on vous offre une boisson en recompense <br> et ceci pendant 02 mois !!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ptitdej">
+            <img src="breakfast-on-us-offer.jpg" alt="img5">
+            <div class="text">
+                <h3>P'tit dej <i class="fa-solid fa-mug-saucer"></i></h3>
+                <p>On fait pas des choses à moitié sur HarryCusto ! Gamme p'tit déj sur vous <i class="fa-solid fa-face-smile"></i> <br> Commandez en bas !</p>
+            </div>
+        </div>
+        <div class="presentation">
+            <h1>Votre commande <i class="fa-solid fa-utensils"></i></h1>
+            <p>Vous ne trouvez pas votre bonheur dans notre menu ? Alors faites votre commande. Et vous serez livrer à temps !</p>
+        </div>
+        <div class="form">
+            <form>
+                <label for="option">Sélectionnez le type</label>
+                <select name="select" id="option">
+                    <option selected value="option1">Riz</option>
+                    <option value="option2">Farine</option>
+                    <option value="option3">Autre mets</option>
+                    <option value="option4">Breakfast</option>
+                </select>
+                <p>Passez votre commande!</p>
+                <textarea name="Commande" id="m" placeholder="Votre commande"></textarea><br>
+                <label for="m1">Vous voulez une boisson ?</label>
+                <input type="text" id="m3" placeholder="Votre boisson">
+                <input type="button" value="Validez votre commande" onclick="valid()">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="pre">
+            <div class="icone">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="lien">
+                <nav>
+                    <ul>
+                        <li><a href="#top">Accueil</a></li>
+                        <li><a href="Apropos.html">A propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="produit.html">Produits</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="copyright">
+            <i class="fa-regular fa-copyright"></i>
+            <p>2024 HarryCusto - Tous droits réservés </p>
+        </div>
+    </footer>
+</body>
+</html>
