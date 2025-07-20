@@ -1,4 +1,4 @@
-# Anago Miguel
+# Anago Mahouton Miguel Harry
 
 👋 Hi! I'm **Anago Miguel**, a student in Artificial Intelligence and a junior UI/UX designer. I'm passionate about innovation and emerging technologies, specializing in front-end web development and AI applications.
 
@@ -10,7 +10,7 @@
 
 ## 💼 Skills
 - **Programming Languages**: Python, JavaScript, R, HTML, CSS ...
-- **Frameworks**: Vue.js, TensorFlow, Keras, Bootstrapp...
+- **Frameworks**: TensorFlow, Keras, Bootstrapp...
 - **Design Tools**: Figma, Adobe XD, Canva
 - **Other Skills**: OpenCV, TensorFlow Datasets, Front-End Development, UI/UX Design, Applied AI
 
