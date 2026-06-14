@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Harry 👋</h1>
 
 <p align="center">
-  <em>AI & Data Science student · IFRI, Université d'Abomey-Calavi · Bénin 🇧🇯</em>
+  <em>AI & Data Science enthusiast · Bénin 🇧🇯</em>
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ I'm drawn to the intersection of algorithmic rigor and practical deployment — 
 `FastAPI` `MongoDB` `Python`
 
 **Frontend & Design**
-`HTML/CSS/JS` `React` `Next.js` `Bootstrap` `Tailwind CSS` `Figma` `Adobe XD`
+`HTML/CSS/JS` `React` `Bootstrap` `Figma` `Adobe XD`
 
 **Tools**
 `Git` `GitHub` `Docker` `VS Code`
